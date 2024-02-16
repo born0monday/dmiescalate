@@ -1,10 +1,8 @@
 # dmiescalate
 
-> Privilege escalation using dmidecode on BIOS and UEFI systems.
+> Privilege escalation using dmidecode (<=3.4) on BIOS and UEFI systems.
 
 Inspired by: https://github.com/adamreiser/dmiwrite
-
-Supported dmidecode versions: <= 3.4
 
 ## Background
 I recently ran into the following issue trying to escalate privileges via `dmidecode` sudo rule using [dmiwrite](https://github.com/adamreiser/dmiwrite):
